@@ -1,0 +1,260 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>VitalFit</title>
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/skeleton.css">
+    <link rel="stylesheet" href="css/custom.css">
+</head>
+<body>
+<header id="header" class="header">
+    <div class="container">
+        <div class="row">
+            <div class="four columns">
+                <img src="img/logo.PNG" id="logo" width="150px">
+            </div>
+            <div class="two columns u-pull-right">
+                <ul>
+                    <li class="submenu">
+                            <img src="img/cart.png" id="img-carrito">
+                            <div id="carrito">
+                                    
+                                    <table id="lista-carrito" class="u-full-width">
+                                        <thead>
+                                            <tr>
+                                                <th>Imagen</th>
+                                                <th>Nombre</th>
+                                                <th>Precio</th>
+                                                <th>Cantidad</th>
+                                                <th></th>
+                                            </tr>
+                                        </thead>
+                                        <tbody></tbody>
+                                    </table>
+
+                                    <a href="#" id="vaciar-carrito" class="button u-full-width">Vaciar Carrito</a>
+                            </div>
+                    </li>
+                </ul>
+            </div>
+        </div> 
+    </div>
+    </header>
+
+
+    <div id="hero">
+        <div class="container">
+            <div class="row">
+                    <div class="six columns">
+                        <div class="contenido-hero">
+                                <h2>Aprende algo nuevo</h2>
+                                <p>¿Queres saber mas sobre yoga?</p>
+                                <form action="#" id="busqueda" method="post" class="formulario">
+                                    <input class="u-full-width" type="text" placeholder="¿Que te gustaría saber?" id="buscador">
+                                    <input type="submit" id="submit-buscador" class="submit-buscador">
+                                </form>
+                        </div>
+                    </div>
+            </div> 
+        </div>
+    </div>
+
+    <div class="barra">
+        <div class="container">
+            <div class="row">
+                    <div class="four columns icono icono1">
+                        <p>Desarrollá tus <br>
+                            habilidades</p>
+                    </div>
+                    <div class="four columns icono icono2">
+                        <p>Apuntá a un futuro <br>
+                            mejor</p>
+                    </div>
+                    <div class="four columns icono icono3">
+                        <p>Incrementa el yoga <br>
+                            a tu vida</p>
+                    </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div id="lista-cursos" class="container">
+        <h1 id="encabezado" class="encabezado">Articulos de yoga</h1>
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/articulo1.JPG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Correa facilitadora</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$10.000 <span class="u-pull-right ">$7.500</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="1">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/articulo2.JPG" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Rueda para yoga</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$15.000<span class="u-pull-right ">$13.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="2">Agregar Al Carrito</a>
+                        </div>
+                    </div>
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/articulo3.JPG" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Ladrillos para yoga</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$9.000<span class="u-pull-right ">$7.800</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="3">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/articulo4.JPG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Rodillos de espuma</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$9.000<span class="u-pull-right ">$8.000 </span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="4">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/articulo5.JPG" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Mat de yoga</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$20.000  <span class="u-pull-right ">$16.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="5">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/articulo6.JPG" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Bolso de yoga</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$15.000 <span class="u-pull-right ">$14.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="6">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+            <div class="four columns">
+                <div class="card">
+                    <img src="img/articulo7.JPG" class="imagen-curso u-full-width">
+                    <div class="info-card">
+                        <h4>Almohadon de meditacion</h4>
+                        <img src="img/estrellas.png">
+                        <p class="precio">$14.000<span class="u-pull-right ">$13.400</span></p>
+                        <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="7">Agregar Al Carrito</a>
+                    </div>
+                </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/articulo8.JPG" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Pelota de yoga</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$17.000 <span class="u-pull-right ">$15.700</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="8">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+            <div class="four columns">
+                    <div class="card">
+                        <img src="img/articulo9.JPG" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Botellas de yoga</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$9.000  <span class="u-pull-right ">$6.000</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="9">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+            </div>
+        </div> <!--.row-->
+        <div class="row">
+                <div class="four columns">
+                    <div class="card">
+                        <img src="img/yoga1.jpg" class="imagen-curso u-full-width">
+                        <div class="info-card">
+                            <h4>Curso de yoga en casa</h4>
+                            <img src="img/estrellas.png">
+                            <p class="precio">$45.000  <span class="u-pull-right ">$30.00</span></p>
+                            <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="10">Agregar Al Carrito</a>
+                        </div>
+                    </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/yoga2.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>yoga para adultos</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$60.000<span class="u-pull-right ">$54.000</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="11">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+                <div class="four columns">
+                        <div class="card">
+                            <img src="img/yoga3.jpg" class="imagen-curso u-full-width">
+                            <div class="info-card">
+                                <h4>Yoga para embarazadas</h4>
+                                <img src="img/estrellas.png">
+                                <p class="precio">$60.000<span class="u-pull-right ">$38.000</span></p>
+                                <a href="#" class="u-full-width button-primary button input agregar-carrito" data-id="12">Agregar Al Carrito</a>
+                            </div>
+                        </div> <!--.card-->
+                </div>
+            </div> <!--.row-->
+    </div> <br>
+    <section class="container my-5 text-center" >
+        <h2 class="text-center">Contactanos para tener mas info!</h2>
+        <form>
+            <div class="form-row">
+                <div class="form-group col-md-6">
+                    <label for="nombre">Nombre</label>
+                    <input type="text" class="form-control" id="nombre" placeholder="Ingresa tu nombre">
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="correo">Correo Electrónico</label>
+                    <input type="email" class="form-control" id="correo" placeholder="Ingresa tu correo">
+                </div>
+            </div>
+            <div class="form-group">
+                <label for="mensaje">Mensaje</label>
+                <textarea class="form-control" id="mensaje" rows="5" placeholder="Escribe tu mensaje aquí"></textarea>
+            </div>
+            <button type="submit" class="btn btn-primary btn-block">Enviar</button>
+        </form>
+    </section>
+    
+
+    <footer id="footer" class="footer">
+        <footer class="bg-dark text-white text-center py-4">
+        <p>&copy; 2024 . Vitalzen</p>
+        </footer>
+    </footer>
+
+    <script src="js/app.js"></script>
+
+</body>
+</html>
